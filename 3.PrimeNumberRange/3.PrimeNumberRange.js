@@ -6,16 +6,20 @@
 
 
 // Input: Bilangan 1: 20, Bilangan 2: 50
+
+// Input number1 (int)
 var numberInput1 = prompt("input your first number ")
-// prompt("input your first number ")
 
+// Input number2 (int)
 var numberInput2 = prompt("input your second number, must be larger than before ")
-// prompt("input your second number, must be larger than before ")
 
-for (numberInput1 >= 2 ; numberInput1 <= numberInput2 ; numberInput1++){
-    if ((numberInput1 == 2) || (numberInput1 == 3) || (numberInput1 == 5) || (numberInput1 == 7) || (numberInput1 % 2 != 0) && (numberInput1 % 3 != 0) && (numberInput1 % 5 !=0) && (numberInput1 % 7 != 0)){
-        document.write(numberInput1 + "<br></br>")
+if (numberInput1 < numberInput2){
+    for (numberInput1 >= 2 ; numberInput1 <= numberInput2 ; numberInput1++){
+        if ((numberInput1 == 2) || (numberInput1 == 3) || (numberInput1 == 5) || (numberInput1 == 7) || (numberInput1 % 2 != 0) && (numberInput1 % 3 != 0) && (numberInput1 % 5 !=0) && (numberInput1 % 7 != 0)){
+            document.write(numberInput1 + "<br></br>")
+        }
     }
+}else {
+    document.write("your input number is wrong")
 }
-
 

@@ -14,7 +14,10 @@
 // 5 * 9 = 45
 // 5 * 10 = 50
 
+//Input number1 (int)
 const inputNumber = prompt("Masukkan angka ")
+
+//Process :
 for (i = 1 ; i <= 10 ; i++){
     document.write("Hasil dari " + inputNumber + " x " + i + " = " + i * inputNumber + "<br></br>" )
 }

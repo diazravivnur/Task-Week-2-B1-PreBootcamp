@@ -8,24 +8,15 @@
 
 
 // input-1
-var inputAlphabet1 = ["A", "B", "C", "D", "E", "F"];
-var inputAlphabet1Length = inputAlphabet1.length
+const inputAlphabet1 = ["A", "B", "C", "D", "E", "F"];
+// console.log(inputAlphabet1[0])
 
-// // input-2
+// input-2
 var inputAlphabet2 = ["A"];
 
 // process delete input-2 in input-1
-
-for (var i = 0; i < inputAlphabet1Length; i ++) {
-    document.write(inputAlphabet1[i])
-    if(inputAlphabet2 === inputAlphabet1){
-        delete inputAlphabet1
+for (var i = 0; i < inputAlphabet1.length; i ++) {
+    if (inputAlphabet1[i] != inputAlphabet2){
+        document.write(inputAlphabet1[i]) //Output input1 without input2 in it
     }
 }
-
-// var myStringArray = ["Hello","World"];
-// var arrayLength = myStringArray.length;
-// for (var i = 0; i < arrayLength; i++) {
-//     console.log(myStringArray[i]);
-//     //Do something
-// }

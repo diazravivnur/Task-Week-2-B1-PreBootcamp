@@ -7,8 +7,10 @@
 // Input:B
 // Output: B adalah bukan huruf vokal
 
+//Input const.inputAlphabet
 const inputAlphabet = prompt("masukkan huruf ").toUpperCase()
 
+//Decision, if else
 if (inputAlphabet == "A" || inputAlphabet == "I" || inputAlphabet == "U" || inputAlphabet == "E" || inputAlphabet == "O"){
     document.write(inputAlphabet + " adalah huruf vokal")
 }else{
