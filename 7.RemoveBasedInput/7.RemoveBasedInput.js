@@ -12,7 +12,7 @@ const inputAlphabet1 = ["A", "B", "C", "D", "E", "F"];
 // console.log(inputAlphabet1[0])
 
 // input-2
-var inputAlphabet2 = ["A"];
+var inputAlphabet2 = ["D"];
 
 // process delete input-2 in input-1
 for (var i = 0; i < inputAlphabet1.length; i ++) {
